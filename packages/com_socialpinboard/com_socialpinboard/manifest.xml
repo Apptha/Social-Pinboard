@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.7" method="upgrade">
+    <name>com_socialpinboard</name>
+    <license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+    <copyright>Apptha 2012</copyright>
+    <creationDate>April 04, 2013</creationDate>
+    <version>2.0</version>
+    <author>Apptha</author>
+    <authorEmail>support@apptha.com</authorEmail>
+    <authorUrl>http://www.apptha.com</authorUrl>
+    <!-- Database setup -->
+<description>Social Pinboard
+ </description>
+ <scriptfile>script.php</scriptfile>
+    <!-- Custom installer -->
+     <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <!-- The following tag(s) are evaluated by the above subinstall script -->
+        <!-- Frontend files -->
+    <files folder="site">
+        <filename>socialpinboard.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <filename>index.html</filename>
+        <folder>css</folder>
+        <folder>tables</folder>
+        <folder>images</folder>
+        <folder>javascript</folder>
+        <folder>lib</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+        <folder>layouts</folder>
+       
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+    </files>
+
+    <languages folder="languages/site">
+
+			<language tag="en-GB">en-GB.com_socialpinboard.ini</language>
+	</languages>
+
+    <!-- Backend files -->
+    <administration>
+        <menu img="components/com_socialpinboard/assets/logo-small.png">Social Pin Board</menu>
+        <submenu>
+            <menu img="components/com_socialpinboard/assets/category-small.png" link="option=com_socialpinboard&amp;layout=pincategory">Categories</menu>
+            <menu img="components/com_socialpinboard/assets/member-details-small.png" link="option=com_socialpinboard&amp;layout=memberdetails">Member Details</menu>
+            <menu img="components/com_socialpinboard/assets/manage-board-small.png" link="option=com_socialpinboard&amp;layout=manageboard">Manage Board</menu>
+            <menu img="components/com_socialpinboard/assets/manege-pins-small.png" link="option=com_socialpinboard&amp;layout=managepins">Manage Pins</menu>
+            <menu img="components/com_socialpinboard/assets/site-settings-icon-small.png" link="option=com_socialpinboard&amp;layout=sitesettings">Site settings</menu>
+            <menu img="components/com_socialpinboard/assets/request-approval-icon-small.png" link="option=com_socialpinboard&amp;layout=requestapproval">Request Approval</menu>
+            <menu img="components/com_socialpinboard/assets/google-ad-icon-small.png" link="option=com_socialpinboard&amp;layout=googlead">Google Adsense</menu>
+        </submenu>
+
+        <files folder="admin">
+            <filename>socialpinboard.php</filename>
+            <filename>index.html</filename>
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <folder>controllers/</folder>
+            <folder>models/</folder>
+            <folder>helpers/</folder>
+            <folder>assets/</folder>
+            <folder>views/</folder>
+            <folder>tables/</folder>
+            <folder>sql</folder>
+            
+            
+        </files>
+        <languages folder="languages/admin">
+			
+
+			<language tag="en-GB">en-GB.com_socialpinboard.ini</language>
+			<language tag="en-GB">en-GB.com_socialpinboard.sys.ini</language>
+	</languages>
+    </administration>
+    <modules>
+    <module module="mod_socialpinboard_activities" client="site" />
+    <module module="mod_socialpinboard_header" client="site" />
+    <module module="mod_socialpinboard_login" client="site" />
+    <module module="mod_socialpinboard_menu" client="site" />
+    <module module="mod_socialpinboard_search" client="site" />
+  </modules>
+  <plugins>
+    <plugin plugin="plg_apptharedirect" group="system" />
+    <plugin plugin="plg_socialpinboardlogin" group="authentication" />
+  </plugins>
+</extension>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="system" method="upgrade">
+    <name>Social Pinboard Redirect</name>
+    <creationDate>April 04, 2013</creationDate>
+   <author>Apptha</author>
+   <authorEmail>support@apptha.com</authorEmail>
+   <authorUrl>http://www.apptha.com</authorUrl>
+   <copyright>Copyright (C) 2012 Powered by Apptha</copyright>
+   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+   <version>2.0</version> 
+    <description>Plugin for Social Pinboard Redirect</description>
+    <files>
+    <filename plugin="apptharedirect">apptharedirect.php</filename>
+    <filename>index.html</filename>
+    </files>
+</extension>

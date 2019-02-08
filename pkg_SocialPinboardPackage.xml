@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.7">
+     <name>Social Pinboard Package</name>
+     <author>Apptha</author>
+     <creationDate>April 04, 2013</creationDate>
+     <packagename>Social Pinboard Package</packagename>
+     <version>2.0</version>
+     <url>http://www.apptha.com/</url>
+     <packager>Apptha</packager>
+     <packagerurl>http://www.apptha.com/</packagerurl>
+     <authorEmail>support@apptha.com</authorEmail>
+    <authorUrl>http://www.apptha.com</authorUrl>
+     <description>Social Pinboard Package</description>
+     <scriptfile>script.php</scriptfile>
+     <update>http://www.apptha.com</update>
+     
+         <files folder="packages">
+           <file type="component" id="com_sociapinboard" >com_socialpinboard.zip</file>
+           <file type="template" id="socialpinboard" client="site">socialpinboard.zip</file>
+         </files>
+ </extension>

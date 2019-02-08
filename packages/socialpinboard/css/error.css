@@ -1,0 +1,15 @@
+body
+{
+        padding: 0px;
+        margin:0;
+        background:#fff url(../images/back_bg.png) repeat;font-family: "helvetica neue",arial,sans-serif; word-wrap:break-word;
+        font-size: 12px;
+}
+#errorboxbody a{color: red;font-weight: bold;text-decoration: underline;}
+#errorboxbody{width: 500px;margin: 10% auto;text-align: center;
+text-shadow: 0px 1px 2px white;
+font-weight: normal;
+font-size: 20px;}
+#erorr_img{background: url(../images/404.png) 50% 50% no-repeat; width: 500px;
+height: 170px;}
+

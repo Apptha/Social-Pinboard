@@ -1,0 +1,172 @@
+/* JQUERY ALERTS
+--------------------------------------------------------------------------------------- */
+#popup_overlay {opacity: 0.6 !important; filter: alpha(opacity=60) !important;}
+#popup_container {font-family: 'lucida grande',arial; font-weight: bold; text-align: left; font-size: 12px; width: 364px; height: 86px; background: #FFF; color: #000; border-spacing: 2px; border: 4px solid #e0ecf0; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+#popup_title {display: none;}
+#popup_message {padding-top: 15px; padding-left: 15px;}
+#popup_panel {padding-left: 15px; text-align: left;}
+#popup_content input[type=button] {margin-top: 20px; margin-right: 10px; padding: 3px; color: #fff; background-color: #476ea7;}
+/* MODAL
+--------------------------------------------------------------------------------------- */
+/* Repin */
+  #Repin.visible .PostSuccess {bottom: -25%;}
+  #Repin.super .PostSuccess {bottom: 50%;}
+  #Repin .modal.PostSuccess {display: none; text-align: center; font-size: 21px; line-height: 1.8em;}
+  #Repin .modal.PostSuccess span {font-weight: bold;}
+  #Repin.super .overlay {opacity: 0.95;}
+  /* Embed Pin HTML */
+  textarea#EmbedHTMLCode {height: 7.5em;}
+  /* Input Focus */
+  .Form input[type=text]:focus,
+  .Form input[type=password]:focus,
+  .Form textarea:focus,
+  .Form input[type=text].error,
+  .Form input[type=password].error,
+  .Form textarea.error {border-color: #930;
+box-shadow: inset 0 1px rgba(34, 25, 25, 0.15),0 1px rgba(255, 255, 255, 0.8),0 0 14px rgba(235, 82, 82, 0.35);
+-moz-box-shadow: inset 0 1px rgba(34,25,25,0.15),0 1px rgba(255,255,255,0.8),0 0 14px rgba(235,82,82,0.35);
+-webkit-box-shadow: inset 0 1px rgba(34, 25, 25, 0.15),0 1px rgba(255, 255, 255, 0.8),0 0 14px rgba(235, 82, 82, 0.35);}
+  /* Validation */
+  .Form li .ValidationIcon {position: relative; top: 1px; left: 3px; display: inline-block; width: 11px; height: 11px; background-image: url(../images/orientation/CheckX.png); background-repeat: no-repeat;}
+  .Form li .green {color: green;}
+  .Form li .green .ValidationIcon {background-position: 0 0;}
+  .Form li .red {color: #cb2027;}
+  .Form li .red .ValidationIcon {background-position: -11px 0;}
+  .Form li .default {font-weight: normal; color: #ccc;}
+/* Fancy Form */
+.FancyForm li {position: relative;}  
+  .FancyForm textarea {min-height: 3.95em; line-height: 1.3;}
+  .FancyForm #Boards input {width: 410px; padding: 13px 39px 8px 14px}
+  .FancyForm label {position: absolute; z-index: 2; top: 8px; left: 13px; display: block; color: #d7d7d7; -moz-user-select: none; -webkit-user-select: none; -moz-transition: all 0.16s ease-in-out; -webkit-transition: all 0.16s ease-in-out;}
+  .FancyForm .fff {position: absolute; z-index: 1; top: 0; right: 0; left: 3px; bottom: 0;  border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;}
+  .FancyForm .helper {position: absolute; right: -194px; bottom: 10px; width: 180px; font-size: 13px; line-height: 15px;}
+  /* Input Focus Labels */
+#recipient_name_error, #recipient_email_error, #recipient_invalid_email_error{color: red;font-size: 12px;}
+  .FancyForm input[type=text]:focus + label,
+  .FancyForm input[type=password]:focus + label,
+  .FancyForm textarea:focus + label {opacity: .5; filter: alpha(opacity="50");}
+  /* Input Entry */
+  .FancyForm .val label {}
+  #DeleteForm #delete_account{width: auto; float: left; padding: 6px 20px; margin: 0;}
+  #DeleteForm {display: none;
+  background: white;
+width: 100%;
+padding: 20px;
+overflow: hidden;
+box-shadow: 0px 2px 1px rgba(100, 100, 100, 0.5);
+margin-bottom: 15px;}
+  #DeleteForm p {font-size: 14px; line-height: 1.5; margin-bottom: 0;}
+  #DeleteForm p strong {color: #cb2027;}
+  #DeleteForm #DeleteDecision {float: left; margin-bottom: 20px; width: 100%;}
+  #DeleteForm #DeleteDecision input {float: left; margin-top: 6px;}
+  #DeleteForm #DeleteDecision label {float: left; margin-left: 5px; font-size: 14px; font-weight: bold;}
+  #DeleteForm #ChangeOfHeart {font-size: 14px; color: #8C7E7E;margin: 10px 0 0 10px;
+display: block;
+float: left;}
+/* LOGIN PAGE
+--------------------------------------------------------------------------------------- */
+#login_logo {margin: 96px 0 0;}
+#login_logo a {display: block; width: 259px; height: 66px; margin: 0 auto 50px; background: url('../images/login_icons.png') 0 0;}
+.social_buttons {width: 440px; margin: 0 auto;}
+.social_buttons .inset:last-child {margin-right: 0 !important;}
+.inset {
+    position: absolute;  top: 0;  left: 50%;  margin: 0 0 0 10px;  padding: 5px;  height: 40px;  min-width: 200px;  border-radius: 8px;  -moz-border-radius: 8px;  -webkit-border-radius: 8px;  box-shadow: inset 0px 1px 2px rgba(50,50,50,0.5);  -moz-box-shadow: inset 0px 1px 2px rgba(50,50,50,0.5);  -webkit-box-shadow: inset 0px 1px 2px rgba(50,50,50,0.5);
+      }
+      
+      
+      .inset:first-child {
+left: auto;
+right: 50%;
+margin: 0 10px 0 0;
+}
+.login_button {display: block;  height: 37px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; -webkit-user-select: none;}
+.login_button:hover {text-decoration: none; cursor: pointer;}
+.login_button:active {height: 38px; margin-top: 2px;}
+.login_button > span {float: left; min-height: 20px; margin-top: 7px; padding: 3px 8px 0 10px; font-size: 14px; font-weight: 500; color: #fff;}
+.login_button .logo_wrapper {float: left; margin-top: 7px; padding: 3px 12px;}
+.fb {background: #3b5998; background: -moz-linear-gradient(top, #3b5998 0%, #3b5998 50%, #325190 50%, #325190 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b5998), color-stop(50%,#3b5998), color-stop(50%,#325190), color-stop(100%,#325190)); background: -webkit-linear-gradient(top, #3b5998 0%,#3b5998 50%,#325190 50%,#325190 100%); background: -o-linear-gradient(top, #3b5998 0%,#3b5998 50%,#325190 50%,#325190 100%);  background: -ms-linear-gradient(top, #3b5998 0%,#3b5998 50%,#325190 50%,#325190 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5998', endColorstr='#325190',GradientType=0 ); background: linear-gradient(top, #3b5998 0%,#3b5998 50%,#325190 50%,#325190 100%); box-shadow: 0px 3px 0px #213b6d; -moz-box-shadow: 0px 3px 0px #213b6d; -webkit-box-shadow: 0px 3px 0px #213b6d;}
+.fb:hover {background: #2b4582; background: -moz-linear-gradient(top, #2b4582 0%, #2b4582 49%, #243d79 49%, #2b4582 100%, #243d79 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2b4582), color-stop(49%,#2b4582), color-stop(49%,#243d79), color-stop(100%,#2b4582), color-stop(100%,#243d79)); background: -webkit-linear-gradient(top, #2b4582 0%,#2b4582 49%,#243d79 49%,#2b4582 100%,#243d79 100%); background: -o-linear-gradient(top, #2b4582 0%,#2b4582 49%,#243d79 49%,#2b4582 100%,#243d79 100%); background: -ms-linear-gradient(top, #2b4582 0%,#2b4582 49%,#243d79 49%,#2b4582 100%,#243d79 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b4582', endColorstr='#243d79',GradientType=0 ); background: linear-gradient(top, #2b4582 0%,#2b4582 49%,#243d79 49%,#2b4582 100%,#243d79 100%); box-shadow: 0px 3px 0px #172d59; -moz-box-shadow: 0px 3px 0px #172d59; -webkit-box-shadow: 0px 3px 0px #172d59;}
+.fb:active {background-color: #243d79; background-image: none; box-shadow: inset 0px 1px 0px rgba(50, 50, 50, 0.4); -moz-box-shadow: inset 0px 1px 0px rgba(50, 50, 50, 0.4); -webkit-box-shadow: inset 0px 1px 0px rgba(50, 50, 50, 0.4);}
+.fb .logo_wrapper {border-right: 1px solid #2f4f85;}
+.fb:hover .logo_wrapper {border-right: 1px solid #284473;}
+.fb:active .logo_wrapper {border-right-color: #21386e;}
+.fb .logo {float: left; width: 11px; height: 20px; background: url('../images/fb_icons.png') no-repeat;}
+.fb > span {}
+.fb:hover > span {}
+.fb:active > span {}
+.tw {background: #32c1f0; background: -moz-linear-gradient(top, #32c1f0 0%, #32c1f0 49%, #30bbe9 49%, #30bbe9 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#32c1f0), color-stop(49%,#32c1f0), color-stop(49%,#30bbe9), color-stop(100%,#30bbe9)); background: -webkit-linear-gradient(top, #32c1f0 0%,#32c1f0 49%,#30bbe9 49%,#30bbe9 100%);  background: -o-linear-gradient(top, #32c1f0 0%,#32c1f0 49%,#30bbe9 49%,#30bbe9 100%); background: -ms-linear-gradient(top, #32c1f0 0%,#32c1f0 49%,#30bbe9 49%,#30bbe9 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32c1f0', endColorstr='#30bbe9',GradientType=0 ); background: linear-gradient(top, #32c1f0 0%,#32c1f0 49%,#30bbe9 49%,#30bbe9 100%);  box-shadow: 0px 3px 0px #249bc4; -moz-box-shadow: 0px 3px 0px #249bc4; -webkit-box-shadow: 0px 3px 0px #249bc4;}
+.tw:hover {background: #18b8ee; background: -moz-linear-gradient(top, #18b8ee 0%, #18b8ee 49%, #18b2e6 49%, #18b2e6 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#18b8ee), color-stop(49%,#18b8ee), color-stop(49%,#18b2e6), color-stop(100%,#18b2e6)); background: -webkit-linear-gradient(top, #18b8ee 0%,#18b8ee 49%,#18b2e6 49%,#18b2e6 100%); background: -o-linear-gradient(top, #18b8ee 0%,#18b8ee 49%,#18b2e6 49%,#18b2e6 100%); background: -ms-linear-gradient(top, #18b8ee 0%,#18b8ee 49%,#18b2e6 49%,#18b2e6 100%);  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18b8ee', endColorstr='#18b2e6',GradientType=0 ); background: linear-gradient(top, #18b8ee 0%,#18b8ee 49%,#18b2e6 49%,#18b2e6 100%);  box-shadow: 0px 3px 0px #1d82a5; -moz-box-shadow: 0px 3px 0px #1d82a5; -webkit-box-shadow: 0px 3px 0px #1d82a5;}
+.tw:active {height: 38px; background-color: #2088B4; background-image: none; box-shadow: inset 0px 1px 0px rgba(50, 50, 50, 0.4); -moz-box-shadow: inset 0px 1px 0px rgba(50, 50, 50, 0.4); -webkit-box-shadow: inset 0px 1px 0px rgba(50, 50, 50, 0.4);}
+.tw .logo_wrapper {padding-top: 3px; padding-right: 8px; padding-left: 8px; border-right: 1px solid #12abdd;}
+.tw:active .logo_wrapper {border-right-color: #1f83ad;}
+.tw > span {border-left: 1px solid #59c9ed;}
+.tw:active > span {border-left-color: #2392c2;}
+.login_bar {clear: both; display: block; width: 650px; margin: 0 auto; padding: 30px 0 35px 0; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;}
+form.AuthForm {width: 260px; margin: 0 auto;}
+form.AuthForm input {min-width: 260px !important;}
+form.AuthForm li {border: none !important;}
+.non_inputs {position: relative; width: 258px;}
+#resetPassword,
+#backToLogin {position: absolute; top: 5px; right: 0;}
+#backToLogin {top: 10px; display: none; font-size: 13px; font-weight: normal;}
+#resetPassword {display: inline-block; font-size: 13px; font-weight: normal; margin: 6px 0 0 12px;}
+.input {position: relative;}
+.input + .error {position: absolute; top: 10px; left: 280px; width: 157px;}
+/* BOOKMARKLET SUCCESS
+----------------------------------------------  */
+.pinSuccess {margin-top: 70px; text-align: center;}
+.pinSuccess h3 {font-size: 1.5em;}
+.pinSuccess ul {margin-top: 20px;}
+.pinSuccess ul li {display: inline; margin-right: 10px;}
+
+/* ADD / REPIN FORM
+----------------------------------------------  */
+.PinForm {margin-left: 0;font-size: 21px;font-weight: 300;float: right;width: 352px;}
+.CharacterHelp {font-size: 13px;}
+.modal .PinTop .load {position: absolute; z-index: 10; top: 11px; right: 155px; display: none;}
+.modal .PinBottom {display: none; margin: 20px -30px 0; padding: 20px 30px 0; border-top: 1px solid #d9d4d4; box-shadow: inset 0 1px #fff; -moz-box-shadow: inset 0 1px #fff; -webkit-box-shadow: inset 0 1px #fff;}
+#Bookmarklet .BoardList {max-height: 200px;}
+/* IMAGE PREVIEW + PICKER */
+.ImagePicker {position: relative; float: left; width: 170px; padding: 0; overflow: hidden; margin-top: 10px; height: 180px;
+overflow: hidden;}
+.ImagePicker .Images {width: 170px; padding: 0; overflow: hidden;}
+.ImagePicker li {position: relative; width: 100%;}
+.ImagePicker img {display: block; max-width: 100%;  margin: 0 auto;}
+.ImagePicker .upload_img {display: block; max-width: 100%; max-height: 100%; margin: 0 !important; float:  left;}
+.ImagePicker .Images {position: relative; float: left; width: 170px !important; padding: 0; overflow: hidden;}
+.ImagePicker .video {position: absolute; z-index: 1; top: 50%; left: 50%; width: 50px; height: 50px; margin: -25px 0 0 -25px;}
+.ImagePicker .load {position: absolute; z-index: 10; top: 50%; left: 50%; display: none; margin: -8px 0 0 -8px;}
+.ImagePicker .loading {background: url(../images/ajaxload2.gif) no-repeat; background-position: center center;}
+.ImagePicker .price {/*z-index: 100001; */top: -70px; left: -117px; -moz-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out;}
+.ImagePicker .price.visible {top: 17px;left: -32px;}
+.ImagePicker .Arrows {display: none;}
+.tagmate-menu {position: absolute; z-index: 3; top: 81px; right: 0; left: 0; max-height: 200px; background-color: #fff; border: 1px solid #ad9c9c; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; box-shadow: 0 3px 8px rgba(35,24,24,.33); -moz-box-shadow: 0 3px 8px rgba(35,24,24,.33); -webkit-box-shadow: 0 3px 8px rgba(35,24,24,.33); overflow-y: scroll;}
+.tagmate-menu-option {padding: 4px 12px; color: #524d4d; cursor: pointer; overflow: hidden;}
+.tagmate-menu-option img {float: left; width: 38px; height: 38px; margin-right: 7px;}
+.tagmate-menu-option span {float: left; margin-top: 7px;}
+.tagmate-menu-option:first-child {padding-top: 8px; border-radius: 6px 6px 0 0; -moz-border-radius: 6px 6px 0 0; -webkit-border-radius: 6px 6px 0 0;}
+.tagmate-menu-option:last-child {padding-bottom: 8px; border-radius: 0 0 6px 6px; -moz-border-radius: 0 0 6px 6px; -webkit-border-radius: 0 0 6px 6px;}
+.tagmate-menu-option-active,
+.tagmate-menu-option:hover {color: #221919; background-color: #ebe8e8;}
+.tagmate-menu-option:active {color: #fff; background-color: #cb2027;}
+.tagmate-menu-option:first-child {padding-top: 8px; border-radius: 6px 6px 0 0; -moz-border-radius: 6px 6px 0 0; -webkit-border-radius: 6px 6px 0 0;}
+.tagmate-menu-option:last-child {padding-bottom: 8px; border-radius: 0 0 6px 6px; -moz-border-radius: 0 0 6px 6px; -webkit-border-radius: 0 0 6px 6px;}
+.tagmate-menu-option-active,
+.tagmate-menu-option:hover {color: #221919; background-color: #ebe8e8;}
+.tagmate-menu-option:active {color: #fff; background-color: #cb2027;}
+/* PRIMARY FORM */
+.PinForm .CharacterHelp {display: none;}
+.PinForm .tagmate-menu {font-size: 18px;}
+.PinForm .mainerror {display: none; margin-top: 14px; font-size: 18px;}
+.PinForm .Buttons {margin: 17px 0 0 0;}
+.PinForm .Button {float: left;}
+.PinForm .Buttons label {float: right; margin-left: 6px; padding: 9px; font-size: 13px; font-weight: bold; border: 2px solid transparent; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; cursor: pointer;}
+.PinForm .Buttons label span {display: inline-block;}
+.PinForm .Buttons label input {display: inline-block; margin-right: 5px; cursor: pointer;}
+.PinForm .Buttons label:hover {color: #524d4d; border-color: #e1dfdf; background-color: #fff;}
+.PinForm .Buttons label:active {padding: 10px 9px 8px; color: #000; box-shadow: inset 0 1px 1px rgba(34,29,29,0.5); -moz-box-shadow: inset 0 1px 1px rgba(34,29,29,0.5); -webkit-box-shadow: inset 0 1px 1px rgba(34,29,29,0.5);}
+.PinForm .Buttons .facebook.active {border-color: #3b5998; background-color: #edeff4;}
+.PinForm .Buttons .facebook.active span {color: #3b5998;}
+.PinForm .Buttons .twitter.active {border-color: #48d3ff; background-color: #f5f5f5;}
+.PinForm .Buttons .twitter.active span {color: #48d3ff;}
+#repinform {display: none;}

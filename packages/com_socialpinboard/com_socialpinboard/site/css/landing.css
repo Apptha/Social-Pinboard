@@ -1,0 +1,132 @@
+/**
+* @Copyright Copyright (C) 2010-2011 Contus Support Interactive Private Limited
+* @license GNU/GPL http://www.gnu.org/copyleft/gpl.html,
+**/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body
+{
+    font: 62.5%/1.5  "Arial", "Lucida Sans", Tahoma, Verdana, sans-serif;
+    background:#faf7f7;
+    color: #000000;
+    text-align:center;
+}
+/* Forms
+-----------------------------------------------------------------------------*/
+
+input.text
+{
+    padding: 3px;
+    border: 1px solid #999999;
+}
+.landing-content{
+    width:900px;
+    margin: 0 auto;
+    text-align:center;
+}
+.logo-header a img{
+    margin-top:50px;
+}
+.invite_email {
+    margin-top:25px;
+}
+
+.invite_email h2 {
+    margin-bottom:5px;
+    font-family:'oswald';
+    font-size:25px;
+    color:#303030;
+    font-weight:normal;
+    text-shadow: 0 1px white;
+}
+.request_box{
+    padding-left: 170px;
+    overflow:hidden;
+}
+.req-input{
+    display:block;
+    float:left;
+}
+.landing-slider span{
+    font-family:'oswald';
+    font-size:25px;
+    color:#303030;
+    text-shadow: 0px 1px 0px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=0, offy=1);
+    line-height: 40px;
+    padding-top:50px;
+}
+.landing-slider span font{
+    display:block;
+    font-family:'oswald';
+    font-size:25px;
+    color:#303030;
+    text-shadow: 0px 1px 0px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=0, offy=1);
+}
+.landing-slider ul li{
+    display: inline-block;
+    margin: 0 6px 0 0;
+    text-align: center;
+    *float: left;
+}
+.landing-slider ul li h4{
+    font-family:'arial';
+    font-size:15px;
+    color:#303030;
+    font-weight:normal;
+}
+@-moz-document url-prefix() {
+    #login-button input{padding: 5px 4px 5px 0;}
+#.login-entry input, #resetPasswd{padding: 5px 0;}
+}
+.invite_email input{
+    margin-right:28px;
+    width:300px;
+    color:#dcdcdc;
+    float:left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 6px 12px; font-size: 18px;
+    font-weight: 300; line-height: 1.4;
+    background: #fff;
+    border: 1px solid #a4a2a2;
+    border-radius: 6px;
+    -moz-border-radius: 6px; -webkit-border-radius: 6px;
+    box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);
+    -moz-box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);
+    -webkit-box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);
+    -moz-transition: all 0.08s ease-in-out;
+    -webkit-transition: all 0.08s ease-in-out;
+    padding: 3px 12px \0/;
+    *padding: 5px 12px 7px;
+}
+.invite_email input{padding-bottom: 7px \0/;}
+.invite_email input.req_invite-bttn{padding-bottom: 3px \0/;}
+.invite_email .req_invite-bttn {*padding: 1px 0 1px 0;}
+.invite_email .req_invite-bttn {cursor: pointer;display: block;float: left;margin: 0;width: 237px;background: #4D9BE5;
+                                background: -moz-linear-gradient(top, #4D9BE5 0%, #3372D0 100%);
+                                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4D9BE5), color-stop(100%,#3372D0));
+                                background: -webkit-linear-gradient(top, #4D9BE5 0%,#3372D0 100%);
+                                background: -o-linear-gradient(top, #4D9BE5 0%,#3372D0 100%);
+                                background: -ms-linear-gradient(top, #4D9BE5 0%,#3372D0 100%);
+                                background: linear-gradient(top, #4D9BE5 0%,#3372D0 100%);
+                                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d9be5', endColorstr='#3372d0',GradientType=0 );
+                                box-shadow: 0 1px rgba(255,255,255,0.8), inset 0 1px rgba(255,2unfollow55,255,0.35), 0 0 10px rgba(235,82,82,0.25);
+                                -moz-box-shadow: 0 1px rgba(255,255,255,0.8), inset 0 1px rgba(255,255,255,0.35), 0 0 10px rgba(235,82,82,0.25);
+                                -webkit-box-shadow: 0 1px rgba(255,255,255,0.8), inset 0 1px rgba(255,255,255,0.35), 0 0 10px rgba(235,82,82,0.25);
+                                border: 1px solid #3372D0;color: white;font-weight: bold;text-shadow: 1px 1px #121212;}
+.landing-slider{
+    background:#bcbcbc url(../images/bg_repeat.jpg) repeat-x top;
+    overflow:hidden;text-align:center;margin:60px 0 0 0;padding-top:30px;}
+
+.landing-slider ul{list-style:none;margin:50px auto 0;display:inline-block; width: 1250px;}
+.home_page_login{text-align: center; font-size: 18px;line-height: 24px;font-weight: 300;margin-bottom: 20px;color: #AD9C9C; display: block;}
+.home_page_login a{font-weight: bold; color: #AD9C9C !important;}

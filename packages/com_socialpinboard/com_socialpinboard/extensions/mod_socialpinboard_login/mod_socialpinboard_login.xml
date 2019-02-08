@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.5.0" client="site" method="upgrade">
+    <name>Social Pinboard Facebook Connect</name>
+    <author>Apptha</author>
+     <creationDate>April 04, 2013</creationDate>
+   <copyright>Copyright (C) 2010 Apptha - All rights reserved.</copyright>
+    <license>Apptha 2011</license>
+    <authorEmail>support@apptha.com</authorEmail>
+    <authorUrl>http://www.apptha.com</authorUrl>
+    <description>Module for Social Pinboard Facebook Connect</description>
+    <version>2.0</version>
+    <scriptfile>script.php</scriptfile>
+    <files >
+        <filename module='mod_socialpinboard_login'>mod_socialpinboard_login.php</filename>
+        <folder>tmpl</folder>
+        <folder>src</folder>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+    </files>
+     <languages>
+   <language tag="en-GB">en-GB.mod_socialpinboard_login.ini</language>  
+    </languages>
+</extension>

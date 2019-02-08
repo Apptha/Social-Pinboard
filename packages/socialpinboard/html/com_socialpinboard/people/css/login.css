@@ -1,0 +1,4 @@
+.landing-content{      width: 600px;      margin:0 auto;      padding-top:50px;      text-align:center;}
+.social-media {      margin-top: 60px;      text-align:center;      padding-bottom:75px;      background:url(../images/shaow_bottom.png) 50% 80% no-repeat ;}
+.login-wrapper{overflow:hidden;}
+.social-media a{      text-decoration:none; margin:0 10px;}

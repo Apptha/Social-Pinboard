@@ -1,0 +1,120 @@
+/**
+* @Copyright Copyright (C) 2010-2011 Contus Support Interactive Private Limited
+* @license GNU/GPL http://www.gnu.org/copyleft/gpl.html,
+**/
+
+.landing-content{       margin: 60px auto 0; text-align:center;}
+.social-media {      margin-top: 35px;      text-align:center;      padding-bottom: 38px;     }
+.login-wrapper{overflow:hidden;}
+.social-media a{      text-decoration:none; }
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+html[xmlns] .clearfix {
+    display: block;
+}
+* html .clearfix {
+    height: 1%;
+}
+#login_error{color: red;text-shadow: 1px 1px white;font-size: 12px;font-weight: bold;
+             /*             position: absolute;*/
+}
+@-moz-document url-prefix() {
+    #login_error{bottom: 150px;}
+}
+#loginForm{position:relative;}
+.login-entry{      width:262px;      margin:0 auto;}
+.login-entry ul li{        height:38px;        margin-bottom:20px;}
+.login-entry ul li a:hover{    color:#CB2027;}
+.login-entry input, #resetPasswd{
+    width:260px; color:#c8c9c9; text-indent: 8px;
+    box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;-webkit-box-sizing: border-box;
+    font-size: 18px;font-weight: 300;    background: #fff;
+    border: 1px solid #a4a2a2;border-radius: 6px;-moz-border-radius:6px;
+    -webkit-border-radius: 6px;
+    box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);
+    -moz-box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);
+    -webkit-box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);
+    -moz-transition: all 0.08s ease-in-out;
+    -webkit-transition: all 0.08s ease-in-out;
+    *height:32px;
+}
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+    .login-entry input, #resetPasswd{padding:5px 0;}
+}
+.login-entry input[type="text"], .login-entry input[type="password"]{float: left;}
+.login-entry #resetButton input{*height: 42px;}
+@media \0screen {
+    .login-entry input, #resetPasswd{height: 35px;}
+    .login-entry input{height: 32px;}
+
+    .login-entry #resetButton input{height: 42px;}
+}
+@-moz-document url-prefix() {
+    #login-button input{padding: 5px 5px 5px 0 !important;}
+.login-entry input, #resetPasswd{padding: 5px 0;}
+#resetButton input[type="button"]{height:35px;}
+}
+#loginForm input{padding: 5px;margin-bottom: 10px;}
+.forget-pass{float:left;padding:11px 0 0 50px;}
+.forget-pass a{color:#8C7E7E;}
+.login-btn input{width: auto; border:none;cursor:pointer; *height: auto;}
+#login-button input{ position: absolute; display:inline-block; zoom:1; text-align:center;
+                     position: relative;z-index: 1;padding: 6px;border: 1px solid rgba(140, 126, 126, 0.5);border-radius: 6px;
+                     color: #524D4D;font-weight: bold;font-family: "helvetica neue",arial,sans-serif;-moz-border-radius: 6px;-webkit-border-radius: 6px;
+                     box-shadow: inset 0 1px rgba(255,255,255,0.35);-moz-box-shadow: inset 0 1px rgba(255,255,255,0.35);-webkit-box-shadow: inset 0 1px rgba(255,255,255,0.35);
+                     border-color: #C3C3C3;
+                     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FDFCFC), to(#F2F0F0), color-stop(.5,#FBF9F9),color-stop(.5,#F7F5F6));
+                     background: -moz-linear-gradient(center top, #FDFCFC, #FBF9F9 50%, #F7F5F6 50%, #F2F0F0);
+                     background: -o-linear-gradient(top left, #FDFCFC, #FBF9F9 50%, #F7F5F6 50%, #F2F0F0);
+                     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FDFCFC), to(#F2F0F0), color-stop(.5,#FBF9F9),color-stop(.5,#F7F5F6));
+                     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfcfc', endColorstr='#f2f0f0');
+                     /*background: url(../images/pin_img.png) 3px center no-repeat;*/
+                     border: 1px solid #999 \0/;
+                     *border: 1px solid #999;
+ cursor: pointer;}
+#resetButton input[type="button"]{
+    position: relative;    display: block;    padding: 6px 24px 6px 12px;
+    background: -webkit-linear-gradient(#FFFCFC, #F0EDED);
+    background: -moz-linear-gradient(#FFFCFC, #F0EDED);
+    background: -o-linear-gradient(#FFFCFC, #F0EDED);
+    background: -webkit-linear-gradient(#FFFCFC, #F0EDED);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcfc', endColorstr='#f0eded');
+    cursor: pointer;    border: 1px solid #CCCACA;    border-radius: 6px;    -moz-border-radius: 6px;    -webkit-border-radius: 6px;
+    box-shadow: inset 0 1px 1px rgba(34,25,25,0.1), 0 2px 2px white;
+    -moz-box-shadow: inset 0 1px 1px rgba(34,25,25,0.1), 0 2px 2px white;
+    -webkit-box-shadow: inset 0 1px 1px rgba(34,25,25,0.1), 0 2px 2px white;
+    width: 61%;    border-image: initial;
+}
+/**************************    Reset button            ************************/
+#login_error_msg{text-align:center;margin: 30px auto 0;text-shadow: 0 1px rgba(255, 255, 255, 1); font-size:16px; color:#ff0000;font-weight: bold;}
+#resetButton {margin-top:-60px;}
+#invalid_email_address{display: block;text-align: center; clear:both;line-height: 20px;text-shadow: 0 1px rgba(255, 255, 255, 1);
+                       font-size: 12px;color: red;font-weight: bold;}
+#resetButton input[type="button"]{margin-left:21%; color:#333;  padding: 6px; text-shadow: 0 1px rgba(255, 255, 255, 1); *margin-left: 0%;}
+#Back-login li a, .forget-list a{color: #8C7E7E;text-shadow: 0 1px rgba(255, 255, 255, 1);}
+#Back-login li a:hover{color: #CB2027;}
+#Back-login{margin:15px;}
+.registers{padding-right: 25px; *padding-right: 20px;}
+.twitter_login{*border: 1px groove #999; padding-bottom: 3px !important;}
+@media \0screen {
+    .twitter_login{border: 1px groove #999; padding-bottom: 3px !important;}
+}
+.tw {background: #32c1f0; background: -moz-linear-gradient(top, #32c1f0 0%, #32c1f0 49%, #30bbe9 49%, #30bbe9 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#32c1f0), color-stop(49%,#32c1f0), color-stop(49%,#30bbe9), color-stop(100%,#30bbe9)); background: -webkit-linear-gradient(top, #32c1f0 0%,#32c1f0 49%,#30bbe9 49%,#30bbe9 100%);  background: -o-linear-gradient(top, #32c1f0 0%,#32c1f0 49%,#30bbe9 49%,#30bbe9 100%); background: -ms-linear-gradient(top, #32c1f0 0%,#32c1f0 49%,#30bbe9 49%,#30bbe9 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32c1f0', endColorstr='#30bbe9',GradientType=0 ); background: linear-gradient(top, #32c1f0 0%,#32c1f0 49%,#30bbe9 49%,#30bbe9 100%);  box-shadow: 0px 3px 0px #249bc4; -moz-box-shadow: 0px 3px 0px #249bc4; -webkit-box-shadow: 0px 3px 0px #249bc4;}
+.tw:hover {background: #18b8ee; background: -moz-linear-gradient(top, #18b8ee 0%, #18b8ee 49%, #18b2e6 49%, #18b2e6 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#18b8ee), color-stop(49%,#18b8ee), color-stop(49%,#18b2e6), color-stop(100%,#18b2e6)); background: -webkit-linear-gradient(top, #18b8ee 0%,#18b8ee 49%,#18b2e6 49%,#18b2e6 100%); background: -o-linear-gradient(top, #18b8ee 0%,#18b8ee 49%,#18b2e6 49%,#18b2e6 100%); background: -ms-linear-gradient(top, #18b8ee 0%,#18b8ee 49%,#18b2e6 49%,#18b2e6 100%);  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18b8ee', endColorstr='#18b2e6',GradientType=0 ); background: linear-gradient(top, #18b8ee 0%,#18b8ee 49%,#18b2e6 49%,#18b2e6 100%);  box-shadow: 0px 3px 0px #1d82a5; -moz-box-shadow: 0px 3px 0px #1d82a5; -webkit-box-shadow: 0px 3px 0px #1d82a5;}
+.tw:active {height: 38px; background-color: #2088B4; background-image: none; box-shadow: inset 0px 1px 0px rgba(50, 50, 50, 0.4); -moz-box-shadow: inset 0px 1px 0px rgba(50, 50, 50, 0.4); -webkit-box-shadow: inset 0px 1px 0px rgba(50, 50, 50, 0.4);}
+.tw .logo_wrapper {padding-top: 5px; padding-right: 8px; padding-left: 8px; border-right: 1px solid #12abdd;}
+.tw:active .logo_wrapper {border-right-color: #1f83ad;}
+.tw .logo {float: left; width: 21px; height: 17px; margin-top: 1px; background: url('../images/twitter-icon.png') 0px 0 no-repeat;}
+.tw > span {border-left: 1px solid #59c9ed;}
+.tw:active > span {border-left-color: #2392c2;}
+
+.login_divider{background: url('../images/shaow_bottom.png') 0px 0 no-repeat;margin: 0 auto;width: 526px;height: 55px;}

@@ -1,0 +1,96 @@
+.select{
+		float:left;
+		padding:20px;
+		}
+
+/*------------------ selectDark -----------------*/
+
+.selectDark{
+                float: left;
+		  border: 1px solid #E7DAB0;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;  border-radius: 5px 5px;  border-image: initial;  z-index: 9 !important;
+                width: 450px !important;  text-align: left;  border: 1px solid #a4a2a2;  background: #fff url(../images/select_down-arrow.gif) no-repeat 97% 50%;  box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);  -moz-box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);  -webkit-box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);  -webkit-transition: all 0.08s ease-in-out;  -moz-transition: all 0.08s ease-in-out;
+}
+.selectDarkMenu{
+                float: left;
+		  border: 1px solid #E7DAB0;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;  border-radius: 5px 5px;  border-image: initial;  z-index: 9 !important;
+                width: 343px !important;  text-align: left;  border: 1px solid #a4a2a2;  background: #fff url(../images/select_down-arrow.gif) no-repeat 97% 50%;  box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);  -moz-box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);  -webkit-box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);  -webkit-transition: all 0.08s ease-in-out;  -moz-transition: all 0.08s ease-in-out;
+}
+.selectDarkMenuaddpin{
+                float: left;
+                padding-top: 5px;
+		  border: 1px solid #E7DAB0;  -moz-border-radius: 5px;  -webkit-border-radius: 5px;  border-radius: 5px 5px;  border-image: initial;  z-index: 9 !important;
+                width: 312px !important;  text-align: left;  border: 1px solid #a4a2a2;  background: #fff url(../images/select_down-arrow.gif) no-repeat 97% 50%;  box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);  -moz-box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);  -webkit-box-shadow: inset 0 1px rgba(34,25,25,0.15), 0 1px rgba(255,255,255,0.8);  -webkit-transition: all 0.08s ease-in-out;  -moz-transition: all 0.08s ease-in-out;
+}
+.selectDarkMenuaddpin ul{max-height: 200px;overflow-y: scroll;}
+.selectDark .passiveSelect,.selectDark .activeSelect,.selectDarkMenuaddpin .passiveSelect,.selectDarkMenuaddpin .activeSelect,.selectDarkMenu .passiveSelect,.selectDarkMenu .activeSelect{
+		height:25px;
+		line-height:2em;
+		display:block;
+		cursor:pointer;
+		padding-left:10px;
+		margin-right:10px;
+		}
+
+.selectDark .passiveSelect,.selectDarkMenu .passiveSelect,.selectDarkMenuaddpin .passiveSelect{
+		background:url("images/darkNormal.jpg") no-repeat top right;
+		color:#fff;
+		}
+
+.selectDark .activeSelect,.selectDarkMenu .activeSelect,.selectDarkMenuaddpin .activeSelect{
+		background:url("images/darkActive.jpg") no-repeat top right;
+		color: #221919;
+		font: bold 16px arial;
+}
+
+.selectDark ul{
+		padding:0;
+		margin:0;
+		background: #fff;
+		list-style:none;
+		cursor:pointer;
+		width: 450px;
+		border: 1px solid #aaa;
+		border-radius: 6px;  -moz-border-radius: 6px;  -webkit-border-radius: 6px;
+}
+#upload_pin .selectDarkMenu ul{width: 343px; height: 210px;overflow-y: scroll;}
+.selectDarkMenu ul, .selectDarkMenuaddpin ul{
+		padding:0;
+		margin: 0 0 0 -1px;
+		background: #fff;
+		list-style:none;
+		cursor:pointer;
+		width: 312px;
+		border: 1px solid #aaa; border-top-width: 0;
+		border-radius: 0 0 6px 6px;  -moz-border-radius: 0 0 6px 6px;  -webkit-border-radius: 0 0 6px 6px;
+}
+
+.selectDark li{
+		padding:0;
+		margin:0;
+		padding: 5px;
+		color: #221919;  font: bold 16px arial;
+		border: 0;
+		width: 440px;
+}
+.selectDarkMenu li,.selectDarkMenuaddpin li{
+		padding:0;
+		margin:0;
+		padding: 5px 10px;
+		color: #221919;  font: bold 16px arial;
+		border: 0;
+		width: 270px;
+}
+
+.selectDark .first,.selectDarkMenu .first,.selectDarkMenuaddpin .first{
+		padding-top:10px;
+		background:url("images/darkFirst.jpg") no-repeat top left;
+		}
+
+.selectDark .last,.selectDarkMenu .last,.selectDarkMenuaddpin .last{
+		padding-bottom:10px;
+		background:url("images/darkLast.jpg") no-repeat bottom left;
+		}
+
+.selectDark .selected, .selectDarkMenu .selected, .selectDarkMenuaddpin .selected{
+		color: #221919;  font: bold 16px arial;
+		}

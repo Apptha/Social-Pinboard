@@ -1,0 +1,63 @@
+/**
+* @Copyright Copyright (C) 2010-2011 Contus Support Interactive Private Limited
+* @license GNU/GPL http://www.gnu.org/copyleft/gpl.html,
+**/
+
+root { 
+    display: block;
+}
+
+.clscity {
+    font-size:30px;
+    color:#181512;
+    float:left;
+    margin:70px 0 0 70px;
+    font-weight:bold;
+}
+.clscity span {
+    color:#A31520;
+    font-size:40px;
+    font-weight:bold;
+}
+.clear {
+    clear:both
+}
+.clsform label {
+    display:block;
+    color:#181512;
+    font-size:15px;
+    float:left;
+    padding:3px 10px 0 0;
+    font-weight:bold;
+}
+.clsform input {
+    border:1px solid #000;
+    width:250px;
+    display:block;
+    padding:3px 5px;
+    float:left
+}
+.clsform {
+    float:left;
+    margin-right:25px;
+}
+.clsform select {
+    border:1px solid #000;
+    width:250px;
+    display:block;
+    padding:3px 5px;
+    float:left;
+    height:25px;
+}
+.form {
+    margin:20px;
+}
+.clsshow {
+    margin:0 0 15px 250px;
+}
+.bottomimages img{margin-left:22px;margin-bottom:10px;}
+
+.mainsub{width:757px;margin:0 auto;background:white}
+.clssublogo{float:left;margin:20px 0 0 20px;}
+
+.subscribebtn{padding-left:350px;}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7" method="upgrade">
+    <name>Social Pinboard Header</name>
+    <version>2.0</version>
+    <license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+    <copyright>Apptha 2011</copyright>
+    <description>Module for Social Pinboard Header</description>
+    <creationDate>April 04, 2013</creationDate>
+    <author>Apptha</author>
+    <authorEmail>support@apptha.com</authorEmail>
+    <authorUrl>http://www.apptha.com</authorUrl>
+    <scriptfile>script.php</scriptfile>
+    <files >
+        <filename module='mod_socialpinboard_header'>mod_socialpinboard_header.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+    </files>
+    <languages>
+   <language tag="en-GB">en-GB.mod_socialpinboard_header.ini</language>  
+    </languages>
+    
+</extension>

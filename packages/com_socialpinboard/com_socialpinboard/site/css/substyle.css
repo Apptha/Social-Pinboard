@@ -1,0 +1,198 @@
+/**
+* @Copyright Copyright (C) 2010-2011 Contus Support Interactive Private Limited
+* @license GNU/GPL http://www.gnu.org/copyleft/gpl.html,
+**/
+
+root { 
+    display: block;
+}
+
+/* Starts light box-buy for a friend */
+#gift-form .contactul{padding:0px ;margin:0px;list-style:none;}
+#gift-form .leftcol{float:left;width:135px;}
+#gift-form .contact-label{font-size:12px;color:#545454;font-weight:bold;}
+#gift-form .label-txt{display:block;font-size:12px;color:#838383}
+#gift-form .clstxtbox{display:block;border:1px solid #ccc;width:210px;padding:5px 5px;}
+#gift-form .contactul li{padding-bottom:15px;}
+#gift-form .clsselect{display:block;float:left;border:1px solid #bfbfbf;width:200px;height:30px;margin-bottom:4px;}
+#gift-form .txtmsg{display:block;font-size:12px;color:#545454;font-weight:bold;}
+#gift-form .bottomtxtmsg{display:block;font-size:12px;color:#838383;width:295px;}
+#gift-form .txtarea{height:150px;border:1px solid #ccc;padding:3px 5px;margin:4px 0;width:240px}
+#gift-form .submit-txt{float:left;width:312px;text-indent:10000000px;}
+#gift-form .clssubmit{background:url(../images/submitbtn.jpg) no-repeat;width:82px;height:27px;border:none;margin:0px 0 0 140px;cursor:pointer;}
+#bg_fade {
+    background-color:#555555;
+    height:100%;
+    left:0px;
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    top:0px;
+    visibility:hidden;
+    width:100%;
+    z-index:1000;
+}
+
+#gift-form {
+    position: absolute;
+    z-index: 99999;
+}
+
+#gift-form .modal_window345 {
+    position: relative;
+
+    background-color: white;
+    z-index: 99999;
+}
+
+
+#control_overlay {
+    background:#000000 none repeat scroll 0 0;
+    height:100%;
+}
+.modal_window {
+    display:none;
+    left:0;
+    position:absolute;
+    top:0;
+    width:550px;
+    z-index:10;
+}
+.modal_window h1 {
+    font-size:2.5em;
+    margin-left:10px;
+    padding:0 0 10px;
+}
+.modal_window .modal_header h1 {
+    font-weight:bold;
+}
+.modal_window .modal_header p {
+    color:#8CAF59;
+    font-size:0.5em;
+    margin:0;
+    padding-bottom:10px;
+}
+
+
+#modal_close,#close {
+    cursor:pointer;
+    height:25px;
+    position:absolute;margin-left:530px;margin-top:-25px;
+    display:block;
+    width:24px;
+    z-index:1000;
+}
+#modal_close {
+    background:transparent url(../images/x-close-large.png) no-repeat scroll 0 0;
+    line-height:1000em;
+    overflow:hidden;
+}
+.modal_top {
+    background:transparent url(../images/bg-popup-top-green.png) no-repeat scroll 0 0;
+    height:14px;
+    width:550px;
+}
+.modal_bottom {
+    background:transparent url(../images/bg-popup-btm-green.png) no-repeat scroll 0 0;
+    height:14px;
+}
+.modal_content {
+    width:544px;
+    background:#FFFFFF none repeat scroll 0 0;
+    border-color:-moz-use-text-color #87B156;
+    border-right: #87B156 solid 2px;
+    border-left: #87B156 solid 2px;
+    border-style:none solid;
+    border-width:medium 3px;
+    height:auto;
+    padding-top:0;
+}
+.modal_header {
+    text-align:center;
+}
+.modal_header, .modal_footer {
+    background:#DDEDCC none repeat scroll 0 0;
+}
+.modal_header p {
+    font-size:1.6em;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:20px;
+}
+.modal_window .modal_content .modal_header span {
+    position:relative;
+    top:-3px;
+}
+
+#gift_details {
+    background:#F4F4F4 none repeat scroll 0 0;
+}
+
+.icon_gift
+{
+    float: left;
+    padding-left: 5px;
+}
+#gift_details p {
+    font-weight:normal;
+}
+.gift_cards_modal label {
+    margin-bottom:0;
+}
+.gift_cards_modal .modal_main {
+    background-image:none;
+    padding:20px 10px;
+}
+.gift_cards_modal .modal_footer {
+    padding-top:5px;
+}
+.gift_cards_modal .modal_close {
+    display:block;
+    float:left;
+    font-size:1.2em;
+    margin-left:5px;
+}
+#gift_details_save_btn {
+    background:transparent url(../images/save_green.gif) no-repeat scroll 0 0;
+    display:block;
+    float:left;
+    height:23px;
+    line-height:1000em;
+    margin-left:10px;
+    overflow:hidden;
+    width:63px;
+}
+#gift-deleteform .contactul{padding:0px ;margin:0px;list-style:none;}
+#gift-deleteform .leftcol{float:left;width:135px;}
+#gift-deleteform .contact-label{font-size:12px;color:#545454;font-weight:bold;}
+#gift-deleteform .label-txt{display:block;font-size:12px;color:#838383}
+#gift-deleteform .clstxtbox{display:block;border:1px solid #ccc;width:210px;padding:5px 5px;}
+#gift-deleteform .contactul li{padding-bottom:15px;}
+#gift-deleteform .clsselect{display:block;float:left;border:1px solid #bfbfbf;width:200px;height:30px;margin-bottom:4px;}
+#gift-deleteform .txtmsg{display:block;font-size:12px;color:#545454;font-weight:bold;}
+#gift-deleteform .bottomtxtmsg{display:block;font-size:12px;color:#838383;width:295px;}
+#gift-deleteform .txtarea{height:150px;border:1px solid #ccc;padding:3px 5px;margin:4px 0;width:240px}
+#gift-deleteform .submit-txt{float:left;width:312px;text-indent:10000000px;}
+#gift-deleteform .clssubmit{background:url(../images/submitbtn.jpg) no-repeat;width:82px;height:27px;border:none;margin:0px;cursor:pointer;}
+#bg_fade {
+    background-color:#555555;
+    height:100%;
+    left:0px;
+    margin:0px;
+    padding:0px;
+    position:fixed;
+    top:0px;
+    visibility:hidden;
+    width:100%;
+    z-index:1000;
+}
+
+#gift-deleteform {
+    position: absolute;
+    z-index: 99999;
+}
+
+#gift-deleteform .modal_window345 {
+    position: relative;background-color: white; z-index: 99999;
+}
+/* Ends light box-buy for a friend */

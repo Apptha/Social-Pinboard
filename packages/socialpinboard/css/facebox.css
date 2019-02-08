@@ -1,0 +1,78 @@
+#facebox {
+  position: fixed;
+z-index: 9999;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: white;
+background-color: rgba(255, 255, 255, 0);
+overflow-x: auto;
+overflow-y: scroll;
+-webkit-perspective: 1000;
+
+}
+
+
+#facebox .popup{
+  position:relative;
+  
+}
+#facebox .close{
+position: absolute;
+top: 8px;
+z-index: 999;
+left: 614px;
+}
+#facebox .close_new{
+position: absolute;
+top: 8px;
+z-index: 999;
+left: 614px;
+}
+
+#facebox .content {
+  display:block;
+  
+}
+
+#facebox .content > p:first-child{
+  margin-top:0;
+}
+#facebox .content > p:last-child{
+  margin-bottom:0;
+}
+
+
+#facebox .close img{
+  opacity:0.3;
+}
+#facebox .close:hover img{
+  opacity:1.0;
+}
+
+#facebox .loading {
+  text-align: center;
+}
+
+#facebox .image {
+  text-align: center;
+}
+
+#facebox_overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+}
+
+.facebox_hide {
+  z-index:-100;
+}
+
+.facebox_overlayBG {
+  background-color: #fff;
+  z-index: 99;
+  opacity: 0.9 !important;
+}
